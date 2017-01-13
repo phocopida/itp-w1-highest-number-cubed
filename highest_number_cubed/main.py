@@ -2,4 +2,7 @@
 
 
 def highest_number_cubed(limit):
-    pass
+    n=0
+    while n**3 < limit:
+        n += 1
+    return n-1
